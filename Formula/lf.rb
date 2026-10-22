@@ -1,7 +1,7 @@
 class Lf < Formula
   desc "Listen-Fire: the movement language and its local runner"
   homepage "https://github.com/listen-fire/listen-fire"
-  version "0.12.0-rc.4"
+  version "0.12.0-rc.6"
   license "Apache-2.0"
 
   # The built-in modules are TypeScript and need Node once a system is connected.
@@ -9,23 +9,23 @@ class Lf < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/listen-fire/listen-fire/releases/download/lf-v0.12.0-rc.4/lf-v0.12.0-rc.4-aarch64-apple-darwin.tar.gz"
-      sha256 "dc36ca3666686a05bb7e7a2dab391e7f11622a5102f1d410ce5c4596f98aa419"
+      url "https://github.com/listen-fire/listen-fire/releases/download/lf-v0.12.0-rc.6/lf-v0.12.0-rc.6-aarch64-apple-darwin.tar.gz"
+      sha256 "41bd6d2b24853d7d4026844c9e3a663c3bfd7a5388b7e08f65d3422c76c2e81e"
     end
     on_intel do
-      url "https://github.com/listen-fire/listen-fire/releases/download/lf-v0.12.0-rc.4/lf-v0.12.0-rc.4-x86_64-apple-darwin.tar.gz"
-      sha256 "f6d12f9f9bf6d838b5bdb29cccc9a3c66a9b161a99f9da93f2bf03b0284fb9cf"
+      url "https://github.com/listen-fire/listen-fire/releases/download/lf-v0.12.0-rc.6/lf-v0.12.0-rc.6-x86_64-apple-darwin.tar.gz"
+      sha256 "db9c731a43cdd4c9ee32092a43ae0f2d60ca0ee88bb3f4834ac46277a35c4ea8"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/listen-fire/listen-fire/releases/download/lf-v0.12.0-rc.4/lf-v0.12.0-rc.4-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "4e5d3d4225caa4ff29ffde48f7fa330e3e6a80aa05bf6ad722a50a8128d35c0d"
+      url "https://github.com/listen-fire/listen-fire/releases/download/lf-v0.12.0-rc.6/lf-v0.12.0-rc.6-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "96b383cf682e115e6b59a9ee5ad5ecfe98499a0ac9b5fe2fd45f5a9d15550127"
     end
     on_intel do
-      url "https://github.com/listen-fire/listen-fire/releases/download/lf-v0.12.0-rc.4/lf-v0.12.0-rc.4-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "3e09c0598230fb527da0a0103611c11253bb60810f26aa297f47a8aa050ef37b"
+      url "https://github.com/listen-fire/listen-fire/releases/download/lf-v0.12.0-rc.6/lf-v0.12.0-rc.6-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "d17be3d5daaac8b339d6334180ccbd15ad3fa6239dfabbe7a9851c61a23aa8c3"
     end
   end
 
