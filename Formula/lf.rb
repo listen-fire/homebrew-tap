@@ -1,7 +1,7 @@
 class Lf < Formula
   desc "Listen-Fire: the movement language and its local runner"
   homepage "https://github.com/listen-fire/listen-fire"
-  version "0.12.9"
+  version "0.12.10"
   license "Apache-2.0"
 
   # The built-in modules are TypeScript and need Node once a system is connected.
@@ -9,23 +9,23 @@ class Lf < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/listen-fire/listen-fire/releases/download/lf-v0.12.9/lf-v0.12.9-aarch64-apple-darwin.tar.gz"
-      sha256 "3e67f061b575b893ca7cdb9bcf1a9908048a225d3b8488ebf882479edabc795d"
+      url "https://github.com/listen-fire/listen-fire/releases/download/lf-v0.12.10/lf-v0.12.10-aarch64-apple-darwin.tar.gz"
+      sha256 "abcd441d92a8d16ab32f7a2ab6af6b148c4674938f5816a7fc2750b60a13ccc2"
     end
     on_intel do
-      url "https://github.com/listen-fire/listen-fire/releases/download/lf-v0.12.9/lf-v0.12.9-x86_64-apple-darwin.tar.gz"
-      sha256 "e1fa6c7ed928db6e5a23d4f4837fbc08ab46316bca9327e0158df27b359db002"
+      url "https://github.com/listen-fire/listen-fire/releases/download/lf-v0.12.10/lf-v0.12.10-x86_64-apple-darwin.tar.gz"
+      sha256 "ae3b832ce0c9d0da81658c4174ae2178fc576ac10d14a74cbd09683691e05afd"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/listen-fire/listen-fire/releases/download/lf-v0.12.9/lf-v0.12.9-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "d2eb35b1a687e238a9491e0ff99c9155a88cdfd4629d116e2e39256640c4b813"
+      url "https://github.com/listen-fire/listen-fire/releases/download/lf-v0.12.10/lf-v0.12.10-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "7bd9e7835b780951557a7fd5bbe6256f756654a8218dff4c59fe26cc70f35dfd"
     end
     on_intel do
-      url "https://github.com/listen-fire/listen-fire/releases/download/lf-v0.12.9/lf-v0.12.9-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "e77e4303e618c80dbd5753c1a7c624f59cfa6d1eb2d8b260a36c17d561b28526"
+      url "https://github.com/listen-fire/listen-fire/releases/download/lf-v0.12.10/lf-v0.12.10-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "49d0049b1124276d275529c7aa07195885e5b750a0152fa104c112ae55b59c93"
     end
   end
 
