@@ -1,7 +1,7 @@
 class ListenFire < Formula
   desc "Listen-Fire: the movement language and its local runner"
   homepage "https://github.com/listen-fire/listen-fire"
-  version "0.12.13"
+  version "0.13.0"
   license "Apache-2.0"
 
   # The built-in modules are TypeScript and need Node once a system is connected.
@@ -9,23 +9,23 @@ class ListenFire < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/listen-fire/listen-fire/releases/download/lf-v0.12.13/lf-v0.12.13-aarch64-apple-darwin.tar.gz"
-      sha256 "3a7bee76f268150fb212ae3bf7ff87977d6c5cf8255428940a7755c39e6b2ab0"
+      url "https://github.com/listen-fire/listen-fire/releases/download/lf-v0.13.0/lf-v0.13.0-aarch64-apple-darwin.tar.gz"
+      sha256 "ccb2ccf28f6a91e662c1192559d7a4b01c43a29c2eafb20afd01f180b5ad4758"
     end
     on_intel do
-      url "https://github.com/listen-fire/listen-fire/releases/download/lf-v0.12.13/lf-v0.12.13-x86_64-apple-darwin.tar.gz"
-      sha256 "ff848cd5d0d4c8cd48a2a521ce5ee27b2e5865856179f713a7cfb569a3cb0ae6"
+      url "https://github.com/listen-fire/listen-fire/releases/download/lf-v0.13.0/lf-v0.13.0-x86_64-apple-darwin.tar.gz"
+      sha256 "6eedbdad4075c631a79ac9a229139542649ecac2b1b9d9f783e22f275b3a854e"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/listen-fire/listen-fire/releases/download/lf-v0.12.13/lf-v0.12.13-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "26a0ad21c42aa1c6b09caa2de4b1a7f09aafa566de2b30557e173ff82f9051fc"
+      url "https://github.com/listen-fire/listen-fire/releases/download/lf-v0.13.0/lf-v0.13.0-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "572bf009577af96d794c9e4a9bc2e6543633879db61af08526d92aa60ab66aad"
     end
     on_intel do
-      url "https://github.com/listen-fire/listen-fire/releases/download/lf-v0.12.13/lf-v0.12.13-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "eb133f777035ad5390fe9786d46e4f07bba0ffcc6e3762bf6b0d215e11f08cb3"
+      url "https://github.com/listen-fire/listen-fire/releases/download/lf-v0.13.0/lf-v0.13.0-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "921f38d554fe36177f55e85bdf5478d2a5cafbbbf9353f22b52f4d306938ed58"
     end
   end
 
