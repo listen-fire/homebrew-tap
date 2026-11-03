@@ -1,7 +1,7 @@
 class ListenFire < Formula
   desc "Listen-Fire: the movement language and its local runner"
   homepage "https://github.com/listen-fire/listen-fire"
-  version "0.14.2"
+  version "0.15.0"
   license "Apache-2.0"
 
   # The built-in modules are TypeScript and need Node once a system is connected.
@@ -9,23 +9,23 @@ class ListenFire < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/listen-fire/listen-fire/releases/download/lf-v0.14.2/lf-v0.14.2-aarch64-apple-darwin.tar.gz"
-      sha256 "fc4989080e818300dc949c0cdca62f33c0609431c9ed1f0150093b1823eb8e3a"
+      url "https://github.com/listen-fire/listen-fire/releases/download/lf-v0.15.0/lf-v0.15.0-aarch64-apple-darwin.tar.gz"
+      sha256 "182113c31ce9e8a17653ab064ac18efc2343569e4c13c7fb4d79d74d6b4f72c1"
     end
     on_intel do
-      url "https://github.com/listen-fire/listen-fire/releases/download/lf-v0.14.2/lf-v0.14.2-x86_64-apple-darwin.tar.gz"
-      sha256 "0dd26f9ee6f6a7cbd682f08d500d955bd3347ba0b54650f17fda99490982a2f7"
+      url "https://github.com/listen-fire/listen-fire/releases/download/lf-v0.15.0/lf-v0.15.0-x86_64-apple-darwin.tar.gz"
+      sha256 "704006e625870473967b8b6dc068cba9d913aebd7409b4324769a52b78202662"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/listen-fire/listen-fire/releases/download/lf-v0.14.2/lf-v0.14.2-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "185b1d1eb3dd8f661d7522b332e5679fae62d84005b4d8e735a41ec425d77f71"
+      url "https://github.com/listen-fire/listen-fire/releases/download/lf-v0.15.0/lf-v0.15.0-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "50bdb41eef41afe8e3b7dbd073316923fbbe9cda05ce0e77b38e36d4afad267e"
     end
     on_intel do
-      url "https://github.com/listen-fire/listen-fire/releases/download/lf-v0.14.2/lf-v0.14.2-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "3e27c0ad0d1ccbbbae848d7de533fe8c8f059dc247524e22469cba083b196c65"
+      url "https://github.com/listen-fire/listen-fire/releases/download/lf-v0.15.0/lf-v0.15.0-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "6ba0fbf1a64a53179c070fcc28dc92cda51d969f783712cdc37a59ba07fe4563"
     end
   end
 
